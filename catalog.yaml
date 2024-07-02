@@ -1,0 +1,17 @@
+version: v1
+catalog:
+  repository:
+    description: ""
+  attestation:
+    publickey: ""
+  resources:
+    tasks:
+      - name: git
+        version: 0.3.0
+      - name: git-clone
+        version: 0.3.0
+    pipelines:
+      - name: git
+        version: 0.3.0
+      - name: git-cli
+        version: 0.3.0
