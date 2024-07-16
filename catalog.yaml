@@ -10,6 +10,11 @@ catalog:
         version: 0.3.0
       - name: git-clone
         version: 0.3.0
+    tasks:
+      - name: git
+        version: 0.3.0
+      - name: git-clone
+        version: 0.4.0
     pipelines:
       - name: git
         version: 0.3.0
